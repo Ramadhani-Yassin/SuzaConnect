@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SUZA Connect</title>
+    <link rel="stylesheet" href="Dashboard.component.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SUZA Connect</h1>
+            <nav>
+                <a [routerLink]="['/home']" class="home" style="cursor: pointer; text-decoration: none;">HOME</a>
+                <a [routerLink]="['/about-us']" class="about-us" style="cursor: pointer; text-decoration: none;">ABOUT US</a>
+                <a [routerLink]="['/contacts']" class="contacts" style="cursor: pointer; text-decoration: none;">CONTACTS</a>
+            </nav>
+        </div>
+    </header>
+    <div class="dashboard">
+        <h1>Welcome, to SUZA Connect!</h1>
+        
+
+        <div class="dashboard-content">
+            <div class="dashboard-section">
+                <h2>Courses</h2>
+                <ul>
+                    <li>Course 1</li>
+                    <li>Course 2</li>
+                    <li>Course 3</li>
+                </ul>
+            </div>
+            <div class="dashboard-section">
+                <h2>Assignments</h2>
+                <ul>
+                    <li>Assignment 1 - Due Date</li>
+                    <li>Assignment 2 - Due Date</li>
+                    <li>Assignment 3 - Due Date</li>
+                </ul>
+            </div>
+            <div class="dashboard-section">
+                <h2>Grades</h2>
+                <ul>
+                    <li>Course 1: A</li>
+                    <li>Course 2: B+</li>
+                    <li>Course 3: A-</li>
+                </ul>
+            </div>
+            <div class="dashboard-section">
+                <h2>Announcements</h2>
+                <ul>
+                    <li>Announcement 1</li>
+                    <li>Announcement 2</li>
+                    <li>Announcement 3</li>
+                </ul>
+            </div>
+            <div class="dashboard-section">
+                <h2>Resources</h2>
+                <ul>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">E-Books</a></li>
+                    <li><a href="#">Journals</a></li>
+                </ul>
+            </div>
+            <div class="dashboard-section">
+                <h2>Profile</h2>
+                <p>View and update your profile information.</p>
+                <button>Go to Profile</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Developed by <a href="https://www.linkedin.com/in/ramadhani-ramadhani-8b5045270" target="_blank">&#64;ramah_yasyn</a> | All rights Reserved | 2024</p>
+            <nav>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </nav>
+        </div>        
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
